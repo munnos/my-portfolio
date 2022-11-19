@@ -1,3 +1,5 @@
+import React from 'React';
+
 const Footer = () => {
     return (
     <div>Placeholder footer</div>
