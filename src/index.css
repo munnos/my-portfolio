@@ -70,7 +70,7 @@ section > h2 {
   margin-bottom: 3rem;
 }
 
-.text-light {
+.textLight {
   color: var(--color-grey);
 }
 
@@ -120,6 +120,7 @@ img {
 
     section {
         margin-top: 6rem;
+        height: 100vh;
     }
 }
 
@@ -132,5 +133,6 @@ img {
         margin-bottom: 2rem;
     }
 }
+
 
 

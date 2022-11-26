@@ -5,7 +5,7 @@ import {FaDribbbleSquare} from 'react-icons/fa';
 
 const FooterSocials = () => {
   return (
-    <div className='footer-socials'>
+    <div className='footerSocials'>
     <a href="https://www.linkedin.com/in/michael-munn-561100216/" target="_blank"><GrLinkedin /></a>
     <a href="https://github.com/munnos" target="_blank"><GrGithub /></a>
     <a href="https://dribbble.com/munnos" target="_blank"><FaDribbbleSquare /></a>

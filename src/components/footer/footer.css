@@ -3,7 +3,7 @@
 
 
 
-.footer-socials {
+.footerSocials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,4 +11,11 @@
     position: absolute;
     left: 0;
     bottom: 3rem;
+}
+
+.footerSocials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary-variant);
 }
