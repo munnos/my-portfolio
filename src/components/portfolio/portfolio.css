@@ -7,11 +7,15 @@
 .portfolioItem {
     display: flex;
     flex-wrap: wrap;
-    background: red;
+    background: pink;
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+}
+
+.portfolioitemImage {
+    max-height: 20vh;
 }
 
 .portfolioItem:hover {
@@ -36,6 +40,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    padding-top: 5rem;
 }
 
 
