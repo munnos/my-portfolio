@@ -4,27 +4,19 @@
 }
 
 #aboutmeHeader {
-    padding-left: 2rem;
+    padding-left: 55rem;
     display: inline-block;
     margin-top: 2rem;
     
 }
 
 .containeraboutContainer {
-    display: flex;
+    display: grid;
+    align-items: center;
+
 }
 
 
-.aboutContainer {
-    margin-top: 5rem;
-}
-
-
-.aboutContainer {
- 
-  grid-template-columns: 35% 50%;
-  gap: 15%;
-}
 
 .aboutMe {
   width: 100%;
@@ -48,31 +40,33 @@
     transform: rotate(0);
 }
 
-.aboutCards {
+/* .aboutContent {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: inline-block;
+    grid-auto-rows: 50vh;
+    margin-left: 50vh;
+    
+} */
 
-}
 
-.aboutCard {
+
+.aboutCards {
    background: pink;
    border: 1px solid transparent;
    border-radius: 1rem;
    padding: 2rem;
    text-align: center;
    margin-top: 2rem;
+   grid-template-rows: 1fr 2fr 1fr;
+   
 
 }
 
-.aboutCard:hover {
+.aboutCards:hover {
     background: transparent;
     border-color: purple;
 }
 
-.aboutContent p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
-}
 
 /* Media queries */
 
