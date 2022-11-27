@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 
-import ProjectImage1 from "../../assets/projectImage1.jpg";
+import ProjectImage1 from "../../assets/projectImage1.PNG";
 import ProjectImage2 from "../../assets/projectImage2.PNG";
 import ProjectImage3 from "../../assets/projectImage3.PNG";
 import ProjectImage4 from "../../assets/projectImage4.PNG";
@@ -14,7 +14,7 @@ const Portfolio = () => {
       <h5>Recent Projects</h5>
       <h2>Portfolio</h2>
 
-      <div className="containerportfolioContainer"></div>
+      <div className="containerportfolioContainer">
       <article className="portfolioItem">
         <div className="portfolioitemImage">
           <img src={ProjectImage1} alt="Movietails project" />
@@ -140,6 +140,7 @@ const Portfolio = () => {
         </a>
         </div>
       </article>
+      </div>
     </section>
   );
 };

@@ -11,10 +11,7 @@
 }
 
 :root {
-  --color-bg: red;
-  --color-bg-varient: var(--color-bg);
-  --color-primary: var(--color-bg);
-  --color-primary-variant: var(--color-bg-varient);
+  --color-bg: #2E4BB5;
   --color-text: red;
   --color-white: white;
   --color-text2: blue;

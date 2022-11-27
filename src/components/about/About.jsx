@@ -1,16 +1,13 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/Me.jpg';
+
 
 const About = () => {
   return (
     <section id='about'>
       <h2>About Me</h2>
       <div className="containeraboutContainer">
-        <div className="aboutMe-image">
-          <img src={Me} alt="Me" />
-          </div>
-          </div>
+      
 
           <div className="aboutContent"></div>
           <div className="aboutCards">
@@ -36,6 +33,7 @@ const About = () => {
 
             <a href="#contact" className='btnPrimary'> Contact Me! </a>
 
+        </div>
         </div>
         </div>
 
