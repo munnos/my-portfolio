@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
 
 * {
   margin: 0;
@@ -33,7 +33,7 @@ html {
 
 body {
   font-family: "Inter Tight", sans-serif;
-  font-family: "Permanent Marker", cursive;
+
   background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.7;
@@ -102,11 +102,11 @@ a:hover {
     color: var(--color-bg);
 }
 
-img {
+/* img {
     display: block;
     width: 100%;
     object-fit: cover;
-}
+} */
 
 /* Media queries */
 

@@ -4,28 +4,32 @@ import './about.css'
 
 const About = () => {
   return (
-    <section id='about'>
-      <h2>About Me</h2>
+    <section class='about'>
+      <h1 id="aboutmeHeader">About Me</h1>
       <div className="containeraboutContainer">
       
 
-          <div className="aboutContent"></div>
+          <div className="aboutContent">
           <div className="aboutCards">
           <article className="aboutCard">
             <h5> Strong legal professional seeking first role in web development</h5>
+            
           </article>
+          </div>
 
-          <div className="aboutContent"></div>
+          <div className="aboutContent">
           <div className="aboutCards">
           <article className="aboutCard">
             <h5> Ipsom doriefeafa</h5>
           </article>
+          </div>
 
-          <div className="aboutContent"></div>
+          <div className="aboutContent">
           <div className="aboutCards">
           <article className="aboutCard">
             <h5> Ipsom doriefeafa</h5>
           </article>
+          </div>
           </div>
 
           <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 

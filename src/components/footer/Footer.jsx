@@ -3,7 +3,7 @@ import FooterSocials from './FooterSocials';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'>Footer</div>
   )
 }
 

@@ -1,5 +1,27 @@
+.about {
+    margin-top: 5rem;
+    min-height: 100vh;
+}
+
+#aboutmeHeader {
+    padding-left: 2rem;
+    display: inline-block;
+    margin-top: 2rem;
+    
+}
+
+.containeraboutContainer {
+    display: flex;
+}
+
+
 .aboutContainer {
-  display: grid;
+    margin-top: 5rem;
+}
+
+
+.aboutContainer {
+ 
   grid-template-columns: 35% 50%;
   gap: 15%;
 }
@@ -29,7 +51,7 @@
 .aboutCards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+
 }
 
 .aboutCard {
@@ -38,6 +60,7 @@
    border-radius: 1rem;
    padding: 2rem;
    text-align: center;
+   margin-top: 2rem;
 
 }
 
