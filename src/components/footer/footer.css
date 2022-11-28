@@ -1,17 +1,14 @@
-.footer {
-    position: fixed;
-    
-}
-
 
 .footerSocials {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    margin-left: 90vh;
     gap: 0.8rem;
-    position: absolute;
     left: 0;
     bottom: 3rem;
+    position: bottom;
+    margin-bottom: 2rem;
 }
 
 .footerSocials::after {

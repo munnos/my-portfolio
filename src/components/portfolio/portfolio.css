@@ -14,9 +14,7 @@
     transition: var(--transition);
 }
 
-.portfolioitemImage {
-    max-height: 20vh;
-}
+
 
 .portfolioItem:hover {
     border-color: var(--color-light);
@@ -46,20 +44,32 @@
 
 /* Media queries */
 
-@media screen and (max-width: 1024px) {
-   .portfolioContainer {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
-   }
-}
+@media screen and (max-width: 900px) {
 
-@media screen and (max-width: 600px) {
-    .portfolioContainer {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+
+    .containerportfolioContainer {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .portfolioitemImage {
+        max-height: 20vh;
+
+    } 
+
+    .portfolioItem {
+        
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        align-items: center;
+
+
     }
 
-}
+
+    }
+
     
 
 

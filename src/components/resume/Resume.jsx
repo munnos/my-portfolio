@@ -1,12 +1,15 @@
-import React from 'react'
-import './resume.css'
+import React from 'react';
+import CV from '../../assets/CV.docx';
+import './resume.css';
+
 
 const Resume = () => {
   return (
-    <section id='resume'>
-      <h5>Resume</h5>
-      <h2>Download CV here</h2>
-    </section>
+    <div className="cta">
+        <a href={CV} download className="resumeCards">Download CV</a>
+        <a href="/contact" className='resumeCards'>Contact me</a>
+        <div className="me"> </div>
+    </div>
   )
 }
 

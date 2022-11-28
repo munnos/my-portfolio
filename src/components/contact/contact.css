@@ -1,0 +1,73 @@
+.formContainer {
+    display: grid;
+    gap: 3.5rem;
+}
+
+
+#header {
+    margin-left: 90vh;
+}
+
+
+
+
+.inputBox {
+    display: grid;
+    background: pink;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    grid-template-columns: 1fr 1fr 5fr;
+    gap: 3rem;
+    margin-left: 90vh;
+    margin-bottom: 3rem;
+
+    
+    
+}
+
+#message {
+
+    min-height: 50vh;
+    min-width: 100vh;
+}
+
+#submitBtn {
+    margin-left: 90vh;
+    background: white;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}
+
+
+@media screen and (max-width: 900px) {
+    
+.formContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header {
+    margin-left: 0;
+}
+
+.inputBox {
+   
+    margin-left: 0vh;
+}
+
+#message {
+    max-height: 80%;
+    max-width: 80%;
+}
+
+#submitBtn {
+    margin-left: 0;
+
+}
+
+}

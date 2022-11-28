@@ -22,12 +22,12 @@ const Portfolio = () => {
 
         <h3>Movietails</h3>
         <div className="portfolioitemCTA">
-        <a href="https://github.com" className="btn" target="_blank">
+        <a href="https://github.com/munnos/Movietails" className="btn" target="_blank">
           {" "}
           Github
         </a>
         <a
-          href="https://github.com"
+          href="https://munnos.github.io/Movietails/"
           className="btn btn-primary"
           target="_blank"
         >
@@ -39,15 +39,15 @@ const Portfolio = () => {
 
       <article className="portfolioItem">
         <div className="portfolioitemImage">
-          <img src={ProjectImage2} alt="Movietails project" />
+          <img src={ProjectImage2} alt="Weather application" />
         </div>
-        <h3>Readme generator</h3>
+        <h3>Weather application</h3>
         <div className="portfolioitemCTA">
-        <a href="https://github.com" className="btn" target="_blank">
+        <a href="https://github.com/munnos/Always-take-the-weather-with-you" className="btn" target="_blank">
           Github
         </a>
         <a
-          href="https://github.com"
+          href="https://munnos.github.io/Always-take-the-weather-with-you/"
           className="btn btn-primary"
           target="_blank"
         >
@@ -59,16 +59,16 @@ const Portfolio = () => {
 
       <article className="portfolioItem">
         <div className="portfolioitemImage">
-          <img src={ProjectImage3} alt="Movietails project" />
+          <img src={ProjectImage3} alt="Text editor progressive web application" />
         </div>
         <h3>Text editor progressive web application</h3>
         <div className="portfolioitemCTA">
-        <a href="https://github.com" className="btn" target="_blank">
+        <a href="https://github.com/munnos/edit-me-text-app" className="btn" target="_blank">
           {" "}
           Github
         </a>
         <a
-          href="https://github.com"
+          href="https://edit-text-init.herokuapp.com/"
           className="btn btn-primary"
           target="_blank"
         >
@@ -80,16 +80,16 @@ const Portfolio = () => {
 
       <article className="portfolioItem">
         <div className="portfolioitemImage">
-          <img src={ProjectImage4} alt="Movietails project" />
+          <img src={ProjectImage4} alt="Day planner" />
         </div>
-        <h3>E-commerce back end</h3>
+        <h3>Day planner</h3>
         <div className="portfolioitemCTA">
-        <a href="https://github.com" className="btn" target="_blank">
+        <a href="https://github.com/munnos/9-to-5-Day-Organiser" className="btn" target="_blank">
           {" "}
           Github
         </a>
         <a
-          href="https://github.com"
+          href="https://munnos.github.io/9-to-5-Day-Organiser/"
           className="btn btn-primary"
           target="_blank"
         >
@@ -105,12 +105,12 @@ const Portfolio = () => {
         </div>
         <h3>Blood bank application</h3>
         <div className="portfolioitemCTA">
-        <a href="https://github.com" className="btn" target="_blank">
+        <a href="https://github.com/Beanalini/vibratingParticles" className="btn" target="_blank">
           {" "}
           Github
         </a>
         <a
-          href="https://github.com"
+          href="https://guarded-lowlands-27414.herokuapp.com/"
           className="btn btn-primary"
           target="_blank"
         >
@@ -122,16 +122,16 @@ const Portfolio = () => {
 
       <article className="portfolioItem">
         <div className="portfolioitemImage">
-          <img src={ProjectImage6} alt="Movietails project" />
+          <img src={ProjectImage6} alt="Password generator" />
         </div>
         <h3>Password generator</h3>
         <div className="portfolioitemCTA">
-        <a href="https://github.com" className="btn" target="_blank">
+        <a href="https://github.com/munnos/password-generator" className="btn" target="_blank">
           {" "}
           Github
         </a>
         <a
-          href="https://github.com"
+          href="https://munnos.github.io/password-generator/"
           className="btn btn-primary"
           target="_blank"
         >

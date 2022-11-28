@@ -1,23 +1,15 @@
-.homeContainer {
-    
-    position: center;
-   
-}
 
 .home {
    
-    position: center;
+    
     min-height: 100vh;
-    margin-left: 150vh;
+    margin-left: 75vh;
     
 }
 
 #picofMe {
     height: 40vh;
     width: 40vh;
-    display: block;
-    position: center;
-    position: absolute;
     left: calc(50% - 7.5rem);
     margin-top: 4rem;
     border-radius: 12 rem 12 rem 0 0;
@@ -39,11 +31,13 @@
 
 
 @media screen and (max-width: 1024px) {
-    .header {
-        height: 68vh;
+    .home {
+   
+    
+        min-height: 100vh;
+        margin-left: 0;
         
     }
-}
 
 @media screen and (max-width: 600px) {
     .header {
@@ -55,4 +49,5 @@
         display: none;
 
     }}
+}
        

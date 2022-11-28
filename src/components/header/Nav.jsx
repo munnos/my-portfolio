@@ -10,14 +10,14 @@ import {useState} from 'react';
 
 
 const Nav = () => {
-  const [activeNav, setactiveNav] = useState('/')
+  const [activeNav, setactiveNav] = useState('/about')
   return (
   <nav>
 <a href="/" onClick={() => setactiveNav('/')} className={activeNav === '/' ? 'active' : ''}><TiHome /></a>
 <a href="/about" onClick={() => setactiveNav('/about')} className={activeNav === '/about' ? 'active' : ''}><TbUserCircle /></a>
 <a href="/contact" onClick={() => setactiveNav('/contact')} className={activeNav === '/contact' ? 'active' : ''}><MdOutlineMessage /></a>
 <a href="/portfolio" onClick={() => setactiveNav('/portfolio')} className={activeNav === '/portfolio' ? 'active' : ''}><TfiBook /></a>
-<a href="/resume" onClick={() => setactiveNav('/resume')} className={activeNav === '/resume' ? 'active' : ''}><GrDocumentPdf /></a>
+<a href="/cv" onClick={() => setactiveNav('/cv')} className={activeNav === '/cv' ? 'active' : ''}><GrDocumentPdf /></a>
 </nav>
   )
 }

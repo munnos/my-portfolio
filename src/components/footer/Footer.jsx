@@ -1,9 +1,17 @@
 import React from 'react'
 import FooterSocials from './FooterSocials';
+import './footer.css';
 
 const Footer = () => {
   return (
-    <div className='footer'>Footer</div>
+    <footer className='footerContainer'>
+
+      < FooterSocials />
+    
+    
+    
+    
+    </footer>
   )
 }
 
