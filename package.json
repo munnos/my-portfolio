@@ -1,8 +1,8 @@
 {
   
-  "name": "portfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://munnos.github.io/portfolio",
+  "homepage": "https://munnos.github.io/my-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build && cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": [
