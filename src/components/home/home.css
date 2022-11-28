@@ -10,7 +10,7 @@
 #picofMe {
     height: 40vh;
     width: 40vh;
-    left: calc(50% - 7.5rem);
+    margin-left: 90vh;
     margin-top: 4rem;
     border-radius: 12 rem 12 rem 0 0;
    

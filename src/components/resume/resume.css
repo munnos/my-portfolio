@@ -1,6 +1,11 @@
 .cta {
     display: grid;
     justify-items: center;
+    margin-bottom: 30vh;
+}
+
+li {
+    color: white;
 }
 
 .btn.resumeBtns {
