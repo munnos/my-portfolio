@@ -1,8 +1,8 @@
 {
   
-  "name": "view-my-codified-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://munnos.github.io/view-my-codified-portfolio",
+  "homepage": "https://munnos.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
