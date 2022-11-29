@@ -7,19 +7,21 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Resume from "./components/resume/Resume";
 import Footer from "./components/footer/Footer";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const app = () => {
   return (
     <>
       <Header />
+      <BrowserRouter basename="/my-portfolio">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/my-portfolio" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/cv" element={<Resume />} />
       </Routes>
+      </BrowserRouter>
 
       <Footer />
     </>
