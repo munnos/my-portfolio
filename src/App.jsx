@@ -7,13 +7,12 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Resume from "./components/resume/Resume";
 import Footer from "./components/footer/Footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
-const app = () => {
+const App = () => {
   return (
     <>
       <Header />
-      <BrowserRouter basename="/my-portfolio">
       <Routes>
         <Route exact path="/my-portfolio" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -21,11 +20,11 @@ const app = () => {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/cv" element={<Resume />} />
       </Routes>
-      </BrowserRouter>
+    
 
       <Footer />
     </>
   );
 };
 
-export default app;
+export default App;

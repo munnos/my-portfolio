@@ -1,5 +1,4 @@
 {
-  
   "name": "my-portfolio",
   "version": "0.1.0",
   "homepage": "https://munnos.github.io/my-portfolio",
@@ -21,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [

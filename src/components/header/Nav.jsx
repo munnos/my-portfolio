@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './nav.css';
 import '../../index.css';
 import { TiHome } from 'react-icons/ti';
@@ -13,11 +14,11 @@ const Nav = () => {
   const [activeNav, setactiveNav] = useState('/about')
   return (
   <nav>
-<a href="/" onClick={() => setactiveNav('/')} className={activeNav === '/' ? 'active' : ''}><TiHome /></a>
-<a href="/about" onClick={() => setactiveNav('/about')} className={activeNav === '/about' ? 'active' : ''}><TbUserCircle /></a>
-<a href="/contact" onClick={() => setactiveNav('/contact')} className={activeNav === '/contact' ? 'active' : ''}><MdOutlineMessage /></a>
-<a href="/portfolio" onClick={() => setactiveNav('/portfolio')} className={activeNav === '/portfolio' ? 'active' : ''}><TfiBook /></a>
-<a href="/cv" onClick={() => setactiveNav('/cv')} className={activeNav === '/cv' ? 'active' : ''}><AiOutlineFileWord /></a>
+<Link to="/" onClick={() => setactiveNav('/')} className={activeNav === '/' ? 'active' : ''}><TiHome /></Link>
+<Link to="/about" onClick={() => setactiveNav('/about')} className={activeNav === '/about' ? 'active' : ''}><TbUserCircle /></Link>
+<Link to="/contact" onClick={() => setactiveNav('/contact')} className={activeNav === '/contact' ? 'active' : ''}><MdOutlineMessage /></Link>
+<Link to="/portfolio" onClick={() => setactiveNav('/portfolio')} className={activeNav === '/portfolio' ? 'active' : ''}><TfiBook /></Link>
+<Link to="/cv" onClick={() => setactiveNav('/cv')} className={activeNav === '/cv' ? 'active' : ''}><AiOutlineFileWord /></Link>
 </nav>
   )
 }
